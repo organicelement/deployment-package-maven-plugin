@@ -63,7 +63,7 @@ public class BundleResource implements Resource {
     }
 
     public final void setMojo(DeploymentPackageMojo mojo) {
-        mojo = mojo;
+        this.mojo = mojo;
     }
 
     public void resolve(DeploymentPackage dp, File baseDir) throws MojoExecutionException {
